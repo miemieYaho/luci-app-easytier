@@ -1,4 +1,4 @@
-name: Build-OpenWrt-EasyTier2
+name: Build-OpenWrt-EasyTier
 
 on:
   #push:
@@ -31,7 +31,6 @@ jobs:
           - x86_64
         sdk:
           - 24.10.2
-
     steps:
       - uses: actions/checkout@v4
         with:
